@@ -3,7 +3,7 @@ import React from 'react';
 function App() {
   return (
     <>
-      <h1>AT Digital</h1>
+      <h1 className="text-5xl text-blue-700">AT Digital</h1>
     </>
   );
 }
