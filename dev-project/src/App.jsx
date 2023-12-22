@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Hero from './components/Hero';
 
 function App() {
   return (
@@ -11,7 +12,9 @@ function App() {
       </section>
 
       {/* body section */}
-      <section className="flex-grow"></section>
+      <section className="flex-grow">
+        <Hero />
+      </section>
 
       {/* Footer section */}
       <section>
